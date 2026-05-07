@@ -1,0 +1,21 @@
+# Core
+numpy>=1.23
+scipy>=1.10
+pandas>=1.5
+scikit-learn>=1.2
+matplotlib>=3.6
+tqdm>=4.64
+
+# Models
+torch>=1.13
+torchvision>=0.14
+
+# Video / pose
+opencv-python>=4.6
+opencv-contrib-python>=4.6
+# mediapipe is required by stgcn/extract_pose.py — install separately because
+# it pins older numpy/protobuf in some environments:
+#   pip install mediapipe
+
+# Optional logging during training
+# wandb
