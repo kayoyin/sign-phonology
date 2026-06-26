@@ -1,7 +1,7 @@
 # Phonological Perception of Sign Language Models
 
 Code for the CogSci 2026 paper *Phonological Perception of Sign Language
-Models* (Yin, Carter, Kocab & Lu). We probe whether I3D and ST-GCN models
+Models* (Yin, Carter, Lu & Kocab). We probe whether I3D and ST-GCN models
 implicitly represent sign phonology by comparing penultimate-layer features
 across minimal pairs from ASL Citizen and Sem-Lex, and against human
 handshape perception on the Handshapes-in-Context Stimuli (HCS) data.
@@ -106,7 +106,7 @@ python analysis/synthetic_cm.py \
 ```bibtex
 @inproceedings{yin2026phonological,
   title={Phonological Perception of Sign Language Models},
-  author={Yin, Kayo and Carter, Jessica and Kocab, Annemarie and Lu, Alex X.},
+  author={Yin, Kayo and Carter, Jessica and Lu, Alex X. and Kocab, Annemarie },
   booktitle={Proceedings of the Annual Conference of the Cognitive Science Society},
   year={2026},
 }
