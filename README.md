@@ -31,8 +31,7 @@ pip install mediapipe   # only needed for stgcn/extract_pose.py
 | HCS          | Handshape stimuli (Table 3, Figure 4) | (released with the accompanying stimuli paper) |
 
 > **TODO:** the curated minimal-pair stimuli (`minimal_pairs_asl_citizen.csv`,
-> `minimal_pairs_semlex.csv`), per-pair t-test outputs, handshape-distance
-> CSVs, and the `results.ipynb` paper-table notebook will be hosted at a
+> `minimal_pairs_semlex.csv`) will be hosted at a
 > separate URL — link to come.
 
 `data/` and `results/` are gitignored: scripts read curated stimuli from
